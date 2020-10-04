@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="fafe7f79-c74c-4e6e-b078-e7876c266bb8"
+    Name="3a23e6a8-0113-4072-8d5c-9d7e65aa739d"
     Publisher="CN=Asus"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="fafe7f79-c74c-4e6e-b078-e7876c266bb8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3a23e6a8-0113-4072-8d5c-9d7e65aa739d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>HelloWorld</DisplayName>
+    <DisplayName>HelloWorld1</DisplayName>
     <PublisherDisplayName>Asus</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="HelloWorld.App">
+      EntryPoint="HelloWorld1.App">
       <uap:VisualElements
-        DisplayName="HelloWorld"
+        DisplayName="HelloWorld1"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="HelloWorld"
+        Description="HelloWorld1"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

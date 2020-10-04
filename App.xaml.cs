@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace HelloWorld
+namespace HelloWorld1
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

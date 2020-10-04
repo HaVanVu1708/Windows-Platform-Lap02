@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace HelloWorld
+namespace HelloWorld1
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,13 +26,26 @@ namespace HelloWorld
         {
             this.InitializeComponent();
         }
-
-      
-      
-
-        private void ClickMeButton_Click_1(object sender, RoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            ResultTextBox.Text = "Hello World";
+            Button myButton = new Button();
+            myButton.Name = "ClickMeButton";
+            myButton.Content = "Click Me";
+            myButton.Width = 200;
+            myButton.Height = 100;
+            myButton.Margin = new Thickness(20, 20, 0, 0);
+            myButton.HorizontalAlignment = HorizontalAlignment.Left;
+            myButton.VerticalAlignment = VerticalAlignment.Top;
+
+            myButton.Background = new SolidColorBrush(Windows.UI.Colors.Red);
+            myButton.Click += ClickMeButton_Click;
+
+            LayuotGrid.Children.Add(myButton);
+        }
+
+        private void ClickMeButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
